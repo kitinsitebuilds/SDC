@@ -1,0 +1,251 @@
+﻿.mnuAgent {
+    font-size: 14px;
+}
+
+
+#navBarTop {
+    height: 90px;
+}
+
+.btnUpdate {
+    background-color: #ebb8a9;
+    color: #e95c30;
+}
+    .btnUpdate:hover {
+        background-color: snow;
+        color: #d44521;
+    }
+
+.btnAdd {
+    background-color: #ff6c47;
+    color: white;
+    font-size:12px;
+}
+
+    .btnAdd:hover {
+        background-color: snow;
+        color: #d44521;
+    }
+
+.btnSave {
+    background-color: #ff6c47;
+    color: white;
+}
+
+    .btnSave:hover {
+        background-color: snow;
+        color: #d44521;
+    }
+
+.btn-danger:focus, .btn-danger.focus {
+    color: #fff;
+    background-color: #f0653c;
+    border-color: #d52a1a;
+    box-shadow: 0 0 0 0.2rem rgba(235, 101, 88, 0.5);
+}
+
+.agentCaseValue {
+    width: 200px;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.agentCaseLabel {
+    font-size:12px;
+    padding: 5px;
+    font-weight:bold;
+    width:100px;
+}
+
+.agentCaseInsideLabel {
+    font-size: 12px;
+    padding: 5px;
+    font-weight: bold;
+    width: 150px;
+    color: #d04720;
+    padding-left:20px;
+}
+
+
+
+#accountProfileContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*background-color: #f0cfc7;*/
+    background-color: #faf6f5;
+    border-radius: 20px;
+}
+.border-bottom-info {
+    border-bottom: 0.25rem solid #c7471d !important;
+}
+
+.h6 {
+    color: #c7471d;
+}
+.sdcColor {
+    color: #c7471d;
+}
+
+.bg-gradient-primary {
+    background-color: #4e73df;
+    /*background-image: linear-gradient(180deg, #db4e24 10%, #ecb9ab 100%);*/
+    background-image: linear-gradient(180deg, #db4e24 10%, #3b444b 100%);
+    background-size: cover;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #db4e24;
+    border-color: #4e73df;
+}
+
+.page-item.disabled .page-link {
+    color: #858796;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dddfeb;
+}
+
+/*PROFILE CSS*/
+
+::-webkit-file-upload-button {
+    -webkit-appearance:none;
+    background-color: #e78c72;
+    font-size: 12px;
+    font-style:inherit;
+    color:antiquewhite;
+}
+/*
+input {
+    padding: 5px 5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 1px 6px 6px whitesmoke, inset -1px -10px 5px snow, 1px 2px 1px gray;
+    -moz-box-shadow: inset 1px 6px 12px whitesmoke, inset -1px -10px 5px snow, 1px 2px 1px gray;
+    box-shadow: inset 1px 6px 6px whitesmoke, inset -1px -10px 5px snow, 1px 2px 1px gray;
+    background-color: transparent;
+    color: black;
+}*/
+/* Style the tab */
+/* Style the tab buttons */
+/*.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}*/
+
+    /* Change background color of buttons on hover */
+  /*  .tablink:hover {
+        background-color: #777;
+    }*/
+
+   /* a.tabactive {
+        background-color: blue;
+    }*/
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: gray;
+    display: none;
+    padding: 50px;
+    text-align: center;
+    background-color: #faf6f5;
+    /*#f0cfc7*/
+    margin-top: -10px;
+    text-align: left;
+    /* border-radius: 20px 20px;*/
+}
+
+/* Style the tab content */
+/*.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}*/
+
+.tablink {
+    overflow: hidden;
+    /*border: 1px solid #ccc;*/
+    /*background-color: #f1f1f1;*/
+    /*background-color: #e36942;*/
+    /*background-color: #d04720;*/
+    /*background-color: whitesmoke;*/
+    background-color: #676767;
+    /*border: solid;*/
+    /*border color: #d04720;*/
+    /*border-width: 2px;*/
+    color: whitesmoke;
+    font-weight: bold;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 14px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+    /* Style the buttons that are used to open the tab content */
+    .tablink a {
+        /*background-color: inherit;*/
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+
+    }
+
+        /* Change background color of buttons on hover */
+        .tablink a:hover {
+            background-color: #e27554;
+        }
+
+        /* Create an active/current tablink class */
+        .tablink a.active {
+            background-color: #f5ebe9;
+            color: white;
+        }
+.tabactive {
+    background-color: #faf6f5;
+    padding: 16px;
+    color: #d04720;
+    border-color: #d04720;
+    border: none;
+    font-weight: 500;
+    border-bottom: solid;
+    /*border-top:solid;*/
+    font-size: 14px;
+}
+
+/*
+#divprof {
+    background-color: #d04720;
+    border-color:white;
+    
+}
+#divfam {
+    background-color: #e95c30;
+    border-color: white;
+    border-width: 2px;
+}
+#divsocnet {
+    background-color: #e36942;
+    border-color: white;
+    border-width: 2px;
+}
+#divsummary {
+    background-color: #e27554;
+    border-color: white;
+    border-width: 2px;
+}
+*/
